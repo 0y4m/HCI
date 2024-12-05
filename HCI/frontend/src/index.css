@@ -1,0 +1,33 @@
+:root {
+  /* background colors */
+  --bg-color: -webkit-linear-gradient(270deg, hsla(0, 0%, 95%, 1) 0%, hsla(261, 19%, 86%, 1) 100%);
+
+  /* font colors */
+  --font-color: #28BE5A;
+
+  /* font */
+  --font: 'Poppins', sans-serif;
+
+  /* button color */
+  --button-color: #25A132;
+
+  /* shadow */
+  --box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100%;
+  position: relative;
+}
+
+#root {
+  width: 100%;
+  overflow-x: hidden;
+}
